@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>forms</title>
+</head>
+
+<body>
+    <main class="main">
+        <section class="section">
+            <div class="form-content">
+                <form action="#" class="form">
+                    <div class="radio-content">
+                        <input type="radio" class="radio" id="in" name="radio-group">
+                        <label for="in">Вход</label>
+                        <input type="radio" class="radio" id="registr" name="radio-group">
+                        <label for="registr">Регистрация</label>
+                        <span></span>
+                    </div>
+                    <label for="email">
+                        <h2 class="form-title">
+                            Вход
+                        </h2>
+                    </label>
+                    <input type="email" class="input" placeholder="Введите E-mail" id="email">
+                    <input type="password" class="input" placeholder="Пароль">
+                    <div class="customs-check">
+                        <input type="checkbox" id="agree" class="custom_checkbox">
+                        <label for="agree">Запомнить меня</label>
+                        <a href="#">
+                            Забыли пароль?
+                        </a>
+                    </div>
+                    <button class="button">
+                        Войти
+                    </button>
+                    <div class="form-link">
+                        <a href="#" class="form-login">Еще нет аккаунта? </a>
+                        <a href="#" class="form-login">Зарегистрироваться</a>
+                    </div>
+                    <a href="#" class="link-social">
+                        Или войдите через
+                    </a>
+                    <ul class="list-social">
+                        <li>
+                            <a href="#" class="list-link">
+                                <svg class="icon">
+                                    <use xlink:href="icons/sprite.svg#fb"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="list-link">
+                                <svg class="icon">
+                                    <use xlink:href="icons/sprite.svg#inst"></use>
+                                </svg>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="list-link">
+                                <svg class="icon">
+                                    <use xlink:href="icons/sprite.svg#lin"></use>
+                                </svg>
+                            </a>
+                        </li>
+                    </ul>
+                </form>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
